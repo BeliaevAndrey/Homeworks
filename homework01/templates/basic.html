@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>
+        {% block title %}
+        HW-01 "From dask till dawn"-Shop
+        {% endblock %}
+    </title>
+</head>
+<body>
+<header>
+    {% block header %}
+    <div class="header__bar">
+        <h1 class="header__title">
+            HW-01 Shop
+        </h1>
+    </div>
+    {% endblock %}
+</header>
+<main>
+    {% block main %}
+    Main content
+    {% endblock %}
+</main>
+<footer>
+    {% block footer %}
+    <p>&copy; 2023</p>
+    <div class="footer__menu">
+        <a href="/">
+            <div class="footer__link">Main</div>
+        </a>
+        <a href="#">
+            <div class="footer__link">Contacts</div>
+        </a>
+    </div>
+    {% endblock %}
+</footer>
+</body>
+</html>
