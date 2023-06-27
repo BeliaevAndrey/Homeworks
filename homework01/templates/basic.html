@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../static/style.css">
     <title>
         {% block title %}
-        HW-01 "From dask till dawn"-Shop
+        HW-01 {{ title }}
         {% endblock %}
     </title>
 </head>
@@ -17,6 +17,23 @@
             HW-01 Shop
         </h1>
     </div>
+    <nav>
+        <a href="/">
+            <div class="link__sheet">
+                Main
+            </div>
+        </a>
+        <a href="/clothes/">
+            <div class="link__sheet">
+                Clothes
+            </div>
+        </a>
+        <a href="/contacts/">
+            <div class="link__sheet">
+                Contacts
+            </div>
+        </a>
+    </nav>
     {% endblock %}
 </header>
 <main>
@@ -31,7 +48,7 @@
         <a href="/">
             <div class="footer__link">Main</div>
         </a>
-        <a href="#">
+        <a href="/contacts/">
             <div class="footer__link">Contacts</div>
         </a>
     </div>

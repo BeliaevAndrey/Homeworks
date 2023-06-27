@@ -28,6 +28,27 @@ body {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link__sheet {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    border-top: none;
+    margin-top: 0;
+}
+
+.link__sheet:hover {
+    background-color: #555;
+    color: #fff;
+}
+
 /* Content */
 
 main {
@@ -63,6 +84,9 @@ main {
     justify-content: flex-start;
 }
 
+.item__card:hover {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
 .card__img__box{
     margin: 0;
     width: 300px;
@@ -88,6 +112,46 @@ main {
 
 }
 
+/* Catalog */
+
+.container__column: {
+    flex-flow: column;
+}
+
+.wide__card {
+    min-width: 800px;
+    min-height: 150px;
+    display: flex;
+    flex-flow: row;
+    max-height: 150px;
+    align-items: center;
+}
+
+
+.icony__img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 40px;
+}
+
+/* Contacts */
+
+.contacts__sheet {
+    justify-content: left;
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    line-height: 150%;
+}
 
 /* Footer */
 
@@ -114,8 +178,8 @@ footer {
     margin: 0;
     margin-left: 5px;
     margin-right: 5px;
-    border: solid black 1px;
     padding: 10px;
+    font-style: italic;
 }
 
 .footer__link:hover {
