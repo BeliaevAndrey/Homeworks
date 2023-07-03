@@ -80,7 +80,7 @@ def fill_tables():
 @app.route('/index/')
 def index():
     context = {
-        'title': 'seminar03, task-03: index page',
+        'title': 'Seminar03, task-03: index page',
     }
     return render_template('index.html', **context)
 
