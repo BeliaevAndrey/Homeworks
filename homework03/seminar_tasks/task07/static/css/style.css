@@ -1,0 +1,22 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #ddd;
+}
+
+.div__central {
+    min-width: 1200px;
+    max-width: 1200px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}

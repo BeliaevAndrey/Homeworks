@@ -86,6 +86,7 @@ main {
 
 .item__card:hover {
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
 }
 .card__img__box{
     margin: 0;
