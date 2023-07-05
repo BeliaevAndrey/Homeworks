@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ super() }} - {{ title }}
+{% endblock %}
+{% block content %}
+<div>
+    <p><span>name: </span><span>{{ name }}</span></p>
+    <p><span>email: </span><span>{{ email }}</span></p>
+    <p><span>birth date: </span><span>{{ birthdate }}</span></p>
+    <p><span>password: </span><span>{{ password }}</span></p>
+</div>
+{% endblock %}

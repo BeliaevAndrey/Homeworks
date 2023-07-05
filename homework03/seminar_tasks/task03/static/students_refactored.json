@@ -1,0 +1,1502 @@
+{
+    "Алла Тарасовна Андреева": {
+        "marks": {
+            "Math": 3.36,
+            "Physics": 3.33,
+            "Chemistry": 3.23,
+            "Biology": 3.23,
+            "Literature": 3.95,
+            "Geography": 3.41,
+            "History": 3.57,
+            "First language": 3.43,
+            "Foreign language": 3.33
+        },
+        "gender": "female",
+        "age": 37
+    },
+    "Максим Гордеевич Карпов": {
+        "marks": {
+            "Math": 3.21,
+            "Physics": 3.59,
+            "Chemistry": 3.45,
+            "Biology": 3.5,
+            "Literature": 3.38,
+            "Geography": 3.18,
+            "History": 3.59,
+            "First language": 3.31,
+            "Foreign language": 3.8
+        },
+        "gender": "male",
+        "age": 20
+    },
+    "Акулина Даниловна Егорова": {
+        "marks": {
+            "Math": 3.1,
+            "Physics": 3.1,
+            "Chemistry": 3.33,
+            "Biology": 3.67,
+            "Literature": 3.48,
+            "Geography": 3.39,
+            "History": 3.58,
+            "First language": 3.05,
+            "Foreign language": 3.55
+        },
+        "gender": "female",
+        "age": 41
+    },
+    "Фаина Петровна Фокина": {
+        "marks": {
+            "Math": 3.25,
+            "Physics": 3.52,
+            "Chemistry": 3.6,
+            "Biology": 3.86,
+            "Literature": 3.6,
+            "Geography": 3.65,
+            "History": 3.2,
+            "First language": 3.08,
+            "Foreign language": 3.09
+        },
+        "gender": "female",
+        "age": 36
+    },
+    "Феврония Ильинична Блохина": {
+        "marks": {
+            "Math": 3.33,
+            "Physics": 2.67,
+            "Chemistry": 3.55,
+            "Biology": 3.82,
+            "Literature": 2.82,
+            "Geography": 3.27,
+            "History": 3.42,
+            "First language": 3.82,
+            "Foreign language": 3.7
+        },
+        "gender": "female",
+        "age": 40
+    },
+    "Павел Архипович Матвеев": {
+        "marks": {
+            "Math": 3.0,
+            "Physics": 2.69,
+            "Chemistry": 3.31,
+            "Biology": 3.92,
+            "Literature": 3.67,
+            "Geography": 4.0,
+            "History": 2.71,
+            "First language": 4.0,
+            "Foreign language": 3.42
+        },
+        "gender": "male",
+        "age": 22
+    },
+    "Анна Васильевна Селиверстова": {
+        "marks": {
+            "Math": 3.91,
+            "Physics": 3.24,
+            "Chemistry": 3.17,
+            "Biology": 2.92,
+            "Literature": 3.38,
+            "Geography": 3.57,
+            "History": 3.64,
+            "First language": 3.84,
+            "Foreign language": 3.36
+        },
+        "gender": "female",
+        "age": 28
+    },
+    "Варфоломей Вячеславович Носков": {
+        "marks": {
+            "Math": 3.27,
+            "Physics": 3.67,
+            "Chemistry": 3.36,
+            "Biology": 3.67,
+            "Literature": 3.74,
+            "Geography": 3.81,
+            "History": 3.59,
+            "First language": 3.33,
+            "Foreign language": 3.64
+        },
+        "gender": "male",
+        "age": 18
+    },
+    "Элеонора Валериевна Котова": {
+        "marks": {
+            "Math": 3.52,
+            "Physics": 3.36,
+            "Chemistry": 3.91,
+            "Biology": 4.0,
+            "Literature": 2.86,
+            "Geography": 3.42,
+            "History": 3.24,
+            "First language": 3.5,
+            "Foreign language": 3.57
+        },
+        "gender": "female",
+        "age": 44
+    },
+    "Наталья Егоровна Сергеева": {
+        "marks": {
+            "Math": 3.4,
+            "Physics": 3.48,
+            "Chemistry": 3.83,
+            "Biology": 3.56,
+            "Literature": 4.0,
+            "Geography": 3.76,
+            "History": 3.65,
+            "First language": 3.73,
+            "Foreign language": 3.1
+        },
+        "gender": "female",
+        "age": 31
+    },
+    "Анна Константиновна Громова": {
+        "marks": {
+            "Math": 3.88,
+            "Physics": 3.2,
+            "Chemistry": 3.44,
+            "Biology": 3.71,
+            "Literature": 3.52,
+            "Geography": 3.43,
+            "History": 4.0,
+            "First language": 3.63,
+            "Foreign language": 3.06
+        },
+        "gender": "female",
+        "age": 19
+    },
+    "Кондрат Викентьевич Пестов": {
+        "marks": {
+            "Math": 3.27,
+            "Physics": 3.68,
+            "Chemistry": 3.91,
+            "Biology": 3.58,
+            "Literature": 3.55,
+            "Geography": 3.27,
+            "History": 3.15,
+            "First language": 3.53,
+            "Foreign language": 3.62
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Август трифонович Савельев": {
+        "marks": {
+            "Math": 3.33,
+            "Physics": 3.37,
+            "Chemistry": 3.38,
+            "Biology": 3.24,
+            "Literature": 3.29,
+            "Geography": 3.54,
+            "History": 3.44,
+            "First language": 3.68,
+            "Foreign language": 3.35
+        },
+        "gender": "male",
+        "age": 45
+    },
+    "Макар Игнатьевич Ефремов": {
+        "marks": {
+            "Math": 3.62,
+            "Physics": 3.35,
+            "Chemistry": 3.67,
+            "Biology": 3.14,
+            "Literature": 3.45,
+            "Geography": 3.71,
+            "History": 3.5,
+            "First language": 3.46,
+            "Foreign language": 3.76
+        },
+        "gender": "male",
+        "age": 26
+    },
+    "Капитон Адрианович Агафонов": {
+        "marks": {
+            "Math": 3.76,
+            "Physics": 4.1,
+            "Chemistry": 2.93,
+            "Biology": 3.14,
+            "Literature": 3.31,
+            "Geography": 3.15,
+            "History": 3.5,
+            "First language": 3.3,
+            "Foreign language": 3.1
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Вера Кузьминична Сафонова": {
+        "marks": {
+            "Math": 3.26,
+            "Physics": 3.36,
+            "Chemistry": 3.67,
+            "Biology": 3.25,
+            "Literature": 3.5,
+            "Geography": 3.82,
+            "History": 3.78,
+            "First language": 3.4,
+            "Foreign language": 3.43
+        },
+        "gender": "female",
+        "age": 46
+    },
+    "Евфросиния Сергеевна Горбунова": {
+        "marks": {
+            "Math": 3.47,
+            "Physics": 3.1,
+            "Chemistry": 3.2,
+            "Biology": 3.47,
+            "Literature": 3.71,
+            "Geography": 3.5,
+            "History": 3.75,
+            "First language": 3.45,
+            "Foreign language": 3.56
+        },
+        "gender": "female",
+        "age": 32
+    },
+    "Ульяна Святославовна Гурьева": {
+        "marks": {
+            "Math": 3.43,
+            "Physics": 3.29,
+            "Chemistry": 3.47,
+            "Biology": 3.58,
+            "Literature": 3.59,
+            "Geography": 3.7,
+            "History": 3.59,
+            "First language": 3.36,
+            "Foreign language": 3.56
+        },
+        "gender": "female",
+        "age": 29
+    },
+    "Лукия Станиславовна Дьячкова": {
+        "marks": {
+            "Math": 2.91,
+            "Physics": 3.37,
+            "Chemistry": 3.53,
+            "Biology": 4.0,
+            "Literature": 3.55,
+            "Geography": 3.15,
+            "History": 3.73,
+            "First language": 3.57,
+            "Foreign language": 3.17
+        },
+        "gender": "female",
+        "age": 34
+    },
+    "Василиса Харитоновна Кулакова": {
+        "marks": {
+            "Math": 3.18,
+            "Physics": 3.75,
+            "Chemistry": 3.41,
+            "Biology": 3.44,
+            "Literature": 3.75,
+            "Geography": 3.5,
+            "History": 3.09,
+            "First language": 3.2,
+            "Foreign language": 3.5
+        },
+        "gender": "female",
+        "age": 31
+    },
+    "Елизавета Тимуровна Захарова": {
+        "marks": {
+            "Math": 3.2,
+            "Physics": 3.77,
+            "Chemistry": 3.84,
+            "Biology": 3.58,
+            "Literature": 2.91,
+            "Geography": 3.33,
+            "History": 3.53,
+            "First language": 3.94,
+            "Foreign language": 3.45
+        },
+        "gender": "female",
+        "age": 34
+    },
+    "Тимур Владиленович Емельянов": {
+        "marks": {
+            "Math": 3.47,
+            "Physics": 3.79,
+            "Chemistry": 4.1,
+            "Biology": 3.44,
+            "Literature": 3.0,
+            "Geography": 3.88,
+            "History": 3.61,
+            "First language": 4.0,
+            "Foreign language": 3.09
+        },
+        "gender": "male",
+        "age": 45
+    },
+    "Руслан Виленович Зимин": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.67,
+            "Chemistry": 4.27,
+            "Biology": 3.28,
+            "Literature": 3.59,
+            "Geography": 3.6,
+            "History": 3.62,
+            "First language": 3.45,
+            "Foreign language": 3.8
+        },
+        "gender": "male",
+        "age": 33
+    },
+    "Юлий Филатович Калинин": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.47,
+            "Chemistry": 3.22,
+            "Biology": 3.73,
+            "Literature": 3.57,
+            "Geography": 3.18,
+            "History": 3.55,
+            "First language": 3.69,
+            "Foreign language": 3.4
+        },
+        "gender": "male",
+        "age": 26
+    },
+    "Ираклий Виленович Федоров": {
+        "marks": {
+            "Math": 3.64,
+            "Physics": 3.52,
+            "Chemistry": 3.17,
+            "Biology": 3.36,
+            "Literature": 3.36,
+            "Geography": 3.14,
+            "History": 3.76,
+            "First language": 3.81,
+            "Foreign language": 3.2
+        },
+        "gender": "male",
+        "age": 38
+    },
+    "Пелагея Рубеновна Тихонова": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.57,
+            "Chemistry": 3.91,
+            "Biology": 3.36,
+            "Literature": 3.39,
+            "Geography": 3.48,
+            "History": 3.87,
+            "First language": 3.78,
+            "Foreign language": 3.33
+        },
+        "gender": "female",
+        "age": 45
+    },
+    "Марина Алексеевна Васильева": {
+        "marks": {
+            "Math": 3.0,
+            "Physics": 3.82,
+            "Chemistry": 3.27,
+            "Biology": 3.4,
+            "Literature": 3.58,
+            "Geography": 3.17,
+            "History": 3.83,
+            "First language": 3.53,
+            "Foreign language": 4.2
+        },
+        "gender": "female",
+        "age": 20
+    },
+    "Филимон Филиппович Быков": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 4.25,
+            "Chemistry": 3.6,
+            "Biology": 3.57,
+            "Literature": 3.74,
+            "Geography": 3.32,
+            "History": 3.36,
+            "First language": 3.36,
+            "Foreign language": 3.62
+        },
+        "gender": "male",
+        "age": 28
+    },
+    "Савва Абрамович Голубев": {
+        "marks": {
+            "Math": 3.8,
+            "Physics": 3.46,
+            "Chemistry": 3.47,
+            "Biology": 3.27,
+            "Literature": 3.77,
+            "Geography": 3.4,
+            "History": 3.4,
+            "First language": 3.05,
+            "Foreign language": 3.78
+        },
+        "gender": "male",
+        "age": 22
+    },
+    "Ратибор Архипович Моисеев": {
+        "marks": {
+            "Math": 3.21,
+            "Physics": 3.52,
+            "Chemistry": 3.35,
+            "Biology": 3.0,
+            "Literature": 3.64,
+            "Geography": 4.06,
+            "History": 3.33,
+            "First language": 3.69,
+            "Foreign language": 3.0
+        },
+        "gender": "male",
+        "age": 45
+    },
+    "Афанасий Гертрудович Ларионов": {
+        "marks": {
+            "Math": 3.15,
+            "Physics": 3.27,
+            "Chemistry": 3.61,
+            "Biology": 3.55,
+            "Literature": 3.39,
+            "Geography": 3.5,
+            "History": 3.62,
+            "First language": 3.31,
+            "Foreign language": 4.08
+        },
+        "gender": "male",
+        "age": 29
+    },
+    "Евгений Изотович Крюков": {
+        "marks": {
+            "Math": 3.64,
+            "Physics": 3.13,
+            "Chemistry": 3.2,
+            "Biology": 3.54,
+            "Literature": 3.73,
+            "Geography": 3.5,
+            "History": 3.25,
+            "First language": 3.46,
+            "Foreign language": 3.6
+        },
+        "gender": "male",
+        "age": 25
+    },
+    "Алла Кузьминична Орлова": {
+        "marks": {
+            "Math": 3.57,
+            "Physics": 3.27,
+            "Chemistry": 3.79,
+            "Biology": 3.6,
+            "Literature": 3.06,
+            "Geography": 3.65,
+            "History": 2.94,
+            "First language": 4.09,
+            "Foreign language": 3.62
+        },
+        "gender": "female",
+        "age": 42
+    },
+    "Наталья Григорьевна Маслова": {
+        "marks": {
+            "Math": 3.71,
+            "Physics": 4.06,
+            "Chemistry": 3.38,
+            "Biology": 3.41,
+            "Literature": 3.17,
+            "Geography": 3.81,
+            "History": 3.43,
+            "First language": 3.65,
+            "Foreign language": 3.29
+        },
+        "gender": "female",
+        "age": 45
+    },
+    "лидия Афанасьевна Устинова": {
+        "marks": {
+            "Math": 3.64,
+            "Physics": 3.54,
+            "Chemistry": 3.5,
+            "Biology": 3.3,
+            "Literature": 3.9,
+            "Geography": 3.48,
+            "History": 3.27,
+            "First language": 3.44,
+            "Foreign language": 3.17
+        },
+        "gender": "female",
+        "age": 28
+    },
+    "Мирослав Ефстафьевич Мамонтов": {
+        "marks": {
+            "Math": 3.24,
+            "Physics": 3.44,
+            "Chemistry": 2.93,
+            "Biology": 3.83,
+            "Literature": 3.35,
+            "Geography": 3.4,
+            "History": 3.56,
+            "First language": 4.06,
+            "Foreign language": 3.53
+        },
+        "gender": "male",
+        "age": 20
+    },
+    "Сергей Харитонович Федосеев": {
+        "marks": {
+            "Math": 4.07,
+            "Physics": 3.08,
+            "Chemistry": 3.7,
+            "Biology": 3.53,
+            "Literature": 2.94,
+            "Geography": 3.6,
+            "History": 3.82,
+            "First language": 3.5,
+            "Foreign language": 3.53
+        },
+        "gender": "male",
+        "age": 41
+    },
+    "Зосима Измаилович Горбачев": {
+        "marks": {
+            "Math": 3.0,
+            "Physics": 3.65,
+            "Chemistry": 3.32,
+            "Biology": 3.18,
+            "Literature": 3.36,
+            "Geography": 2.93,
+            "History": 3.43,
+            "First language": 3.82,
+            "Foreign language": 3.7
+        },
+        "gender": "male",
+        "age": 21
+    },
+    "Феврония Харитоновна Маркова": {
+        "marks": {
+            "Math": 3.72,
+            "Physics": 3.7,
+            "Chemistry": 3.35,
+            "Biology": 3.37,
+            "Literature": 3.15,
+            "Geography": 3.4,
+            "History": 3.9,
+            "First language": 3.5,
+            "Foreign language": 3.32
+        },
+        "gender": "female",
+        "age": 49
+    },
+    "Никон Филатович Субботин": {
+        "marks": {
+            "Math": 3.36,
+            "Physics": 3.48,
+            "Chemistry": 3.55,
+            "Biology": 3.5,
+            "Literature": 3.55,
+            "Geography": 3.26,
+            "History": 3.41,
+            "First language": 3.8,
+            "Foreign language": 3.7
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Ратибор Елизарович Егоров": {
+        "marks": {
+            "Math": 3.67,
+            "Physics": 3.62,
+            "Chemistry": 3.13,
+            "Biology": 3.38,
+            "Literature": 3.45,
+            "Geography": 3.72,
+            "History": 3.45,
+            "First language": 3.78,
+            "Foreign language": 3.0
+        },
+        "gender": "male",
+        "age": 31
+    },
+    "Оксана Афанасьевна Гущина": {
+        "marks": {
+            "Math": 2.95,
+            "Physics": 3.23,
+            "Chemistry": 3.31,
+            "Biology": 3.22,
+            "Literature": 3.47,
+            "Geography": 3.58,
+            "History": 3.54,
+            "First language": 3.55,
+            "Foreign language": 3.38
+        },
+        "gender": "female",
+        "age": 26
+    },
+    "Евфросиния Львовна Тарасова": {
+        "marks": {
+            "Math": 3.46,
+            "Physics": 3.56,
+            "Chemistry": 3.6,
+            "Biology": 3.57,
+            "Literature": 3.47,
+            "Geography": 3.72,
+            "History": 3.25,
+            "First language": 3.18,
+            "Foreign language": 3.23
+        },
+        "gender": "female",
+        "age": 22
+    },
+    "Лидия Робертовна Чернова": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.36,
+            "Chemistry": 3.45,
+            "Biology": 3.06,
+            "Literature": 3.89,
+            "Geography": 3.35,
+            "History": 3.5,
+            "First language": 3.31,
+            "Foreign language": 3.82
+        },
+        "gender": "female",
+        "age": 43
+    },
+    "Евстафий Елизарович Шаров": {
+        "marks": {
+            "Math": 3.6,
+            "Physics": 3.54,
+            "Chemistry": 3.67,
+            "Biology": 3.28,
+            "Literature": 3.31,
+            "Geography": 3.73,
+            "History": 3.31,
+            "First language": 3.72,
+            "Foreign language": 3.8
+        },
+        "gender": "male",
+        "age": 48
+    },
+    "Кондрат Архипович Вишняков": {
+        "marks": {
+            "Math": 3.18,
+            "Physics": 3.81,
+            "Chemistry": 3.1,
+            "Biology": 3.3,
+            "Literature": 3.71,
+            "Geography": 3.93,
+            "History": 3.38,
+            "First language": 3.67,
+            "Foreign language": 3.32
+        },
+        "gender": "male",
+        "age": 42
+    },
+    "Влас Брониславович Лазарев": {
+        "marks": {
+            "Math": 3.25,
+            "Physics": 3.41,
+            "Chemistry": 3.06,
+            "Biology": 3.59,
+            "Literature": 3.38,
+            "Geography": 3.33,
+            "History": 3.2,
+            "First language": 3.93,
+            "Foreign language": 3.07
+        },
+        "gender": "male",
+        "age": 18
+    },
+    "Ангелина Игоревна Белова": {
+        "marks": {
+            "Math": 3.59,
+            "Physics": 3.33,
+            "Chemistry": 3.45,
+            "Biology": 3.61,
+            "Literature": 3.44,
+            "Geography": 3.58,
+            "History": 3.35,
+            "First language": 3.1,
+            "Foreign language": 4.2
+        },
+        "gender": "female",
+        "age": 31
+    },
+    "Зинаида Валериевна Корнилова": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.65,
+            "Chemistry": 3.52,
+            "Biology": 3.8,
+            "Literature": 3.38,
+            "Geography": 3.75,
+            "History": 3.55,
+            "First language": 4.36,
+            "Foreign language": 3.41
+        },
+        "gender": "female",
+        "age": 33
+    },
+    "Нинель Геннадиевна Денисова": {
+        "marks": {
+            "Math": 3.59,
+            "Physics": 3.47,
+            "Chemistry": 3.48,
+            "Biology": 3.4,
+            "Literature": 3.86,
+            "Geography": 3.35,
+            "History": 3.76,
+            "First language": 3.73,
+            "Foreign language": 3.47
+        },
+        "gender": "female",
+        "age": 38
+    },
+    "Ермолай Демьянович Федосеев": {
+        "marks": {
+            "Math": 3.68,
+            "Physics": 3.91,
+            "Chemistry": 3.45,
+            "Biology": 3.5,
+            "Literature": 3.71,
+            "Geography": 3.87,
+            "History": 3.28,
+            "First language": 3.48,
+            "Foreign language": 3.0
+        },
+        "gender": "male",
+        "age": 33
+    },
+    "Маргарита Аскольдовна Агафонова": {
+        "marks": {
+            "Math": 3.33,
+            "Physics": 4.27,
+            "Chemistry": 4.0,
+            "Biology": 3.43,
+            "Literature": 3.08,
+            "Geography": 3.95,
+            "History": 3.4,
+            "First language": 3.79,
+            "Foreign language": 3.93
+        },
+        "gender": "female",
+        "age": 50
+    },
+    "Лукия Мироновна Никифорова": {
+        "marks": {
+            "Math": 3.47,
+            "Physics": 3.18,
+            "Chemistry": 3.43,
+            "Biology": 3.28,
+            "Literature": 3.62,
+            "Geography": 3.5,
+            "History": 3.25,
+            "First language": 3.75,
+            "Foreign language": 3.55
+        },
+        "gender": "female",
+        "age": 29
+    },
+    "Акулина Оскаровна Якушева": {
+        "marks": {
+            "Math": 4.0,
+            "Physics": 2.87,
+            "Chemistry": 3.75,
+            "Biology": 3.33,
+            "Literature": 4.08,
+            "Geography": 3.35,
+            "History": 3.9,
+            "First language": 3.44,
+            "Foreign language": 3.5
+        },
+        "gender": "female",
+        "age": 18
+    },
+    "Ия Степановна Антонова": {
+        "marks": {
+            "Math": 3.56,
+            "Physics": 3.33,
+            "Chemistry": 3.35,
+            "Biology": 3.89,
+            "Literature": 3.83,
+            "Geography": 3.1,
+            "History": 3.24,
+            "First language": 3.0,
+            "Foreign language": 3.65
+        },
+        "gender": "female",
+        "age": 29
+    },
+    "Филимон Елисеевич Фомин": {
+        "marks": {
+            "Math": 3.0,
+            "Physics": 3.82,
+            "Chemistry": 3.3,
+            "Biology": 3.6,
+            "Literature": 3.32,
+            "Geography": 3.5,
+            "History": 3.45,
+            "First language": 3.36,
+            "Foreign language": 3.6
+        },
+        "gender": "male",
+        "age": 25
+    },
+    "Регина Владимировна Жукова": {
+        "marks": {
+            "Math": 3.35,
+            "Physics": 3.21,
+            "Chemistry": 3.06,
+            "Biology": 3.59,
+            "Literature": 3.56,
+            "Geography": 3.09,
+            "History": 3.95,
+            "First language": 3.36,
+            "Foreign language": 3.67
+        },
+        "gender": "female",
+        "age": 44
+    },
+    "Анастасия Артемовна Волкова": {
+        "marks": {
+            "Math": 3.85,
+            "Physics": 3.5,
+            "Chemistry": 3.53,
+            "Biology": 3.56,
+            "Literature": 3.92,
+            "Geography": 3.52,
+            "History": 4.15,
+            "First language": 3.53,
+            "Foreign language": 3.47
+        },
+        "gender": "female",
+        "age": 31
+    },
+    "Всемил Харламович Уваров": {
+        "marks": {
+            "Math": 3.13,
+            "Physics": 3.5,
+            "Chemistry": 4.0,
+            "Biology": 4.07,
+            "Literature": 4.0,
+            "Geography": 3.18,
+            "History": 3.24,
+            "First language": 4.2,
+            "Foreign language": 3.71
+        },
+        "gender": "male",
+        "age": 45
+    },
+    "Ангелина Семеновна Лебедева": {
+        "marks": {
+            "Math": 3.62,
+            "Physics": 3.26,
+            "Chemistry": 3.31,
+            "Biology": 3.64,
+            "Literature": 3.58,
+            "Geography": 3.5,
+            "History": 2.62,
+            "First language": 3.31,
+            "Foreign language": 3.0
+        },
+        "gender": "female",
+        "age": 18
+    },
+    "Данила Андреевич Титов": {
+        "marks": {
+            "Math": 4.11,
+            "Physics": 3.33,
+            "Chemistry": 3.1,
+            "Biology": 3.47,
+            "Literature": 3.82,
+            "Geography": 3.1,
+            "History": 3.46,
+            "First language": 3.83,
+            "Foreign language": 3.25
+        },
+        "gender": "male",
+        "age": 26
+    },
+    "Филипп Ануфриевич Константинов": {
+        "marks": {
+            "Math": 3.38,
+            "Physics": 3.82,
+            "Chemistry": 3.11,
+            "Biology": 3.62,
+            "Literature": 3.63,
+            "Geography": 3.42,
+            "History": 3.63,
+            "First language": 3.6,
+            "Foreign language": 3.84
+        },
+        "gender": "male",
+        "age": 23
+    },
+    "Евстигней Жоресович Андреев": {
+        "marks": {
+            "Math": 3.36,
+            "Physics": 3.45,
+            "Chemistry": 3.81,
+            "Biology": 3.55,
+            "Literature": 3.55,
+            "Geography": 3.77,
+            "History": 3.4,
+            "First language": 2.88,
+            "Foreign language": 3.17
+        },
+        "gender": "male",
+        "age": 33
+    },
+    "Радим Филатович ЖурАвлев": {
+        "marks": {
+            "Math": 3.53,
+            "Physics": 2.9,
+            "Chemistry": 3.52,
+            "Biology": 3.64,
+            "Literature": 2.85,
+            "Geography": 2.92,
+            "History": 3.38,
+            "First language": 3.47,
+            "Foreign language": 3.69
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Вера Кузьминична Тарасова": {
+        "marks": {
+            "Math": 3.2,
+            "Physics": 3.5,
+            "Chemistry": 3.67,
+            "Biology": 3.05,
+            "Literature": 3.62,
+            "Geography": 3.42,
+            "History": 3.6,
+            "First language": 3.0,
+            "Foreign language": 3.14
+        },
+        "gender": "female",
+        "age": 35
+    },
+    "Светлана Артемовна Горшкова": {
+        "marks": {
+            "Math": 3.41,
+            "Physics": 3.71,
+            "Chemistry": 3.47,
+            "Biology": 3.65,
+            "Literature": 3.2,
+            "Geography": 3.84,
+            "History": 3.57,
+            "First language": 3.6,
+            "Foreign language": 3.25
+        },
+        "gender": "female",
+        "age": 33
+    },
+    "Амвросий Васильевич Рыбаков": {
+        "marks": {
+            "Math": 3.55,
+            "Physics": 3.88,
+            "Chemistry": 3.55,
+            "Biology": 3.5,
+            "Literature": 3.88,
+            "Geography": 3.25,
+            "History": 4.05,
+            "First language": 3.11,
+            "Foreign language": 3.25
+        },
+        "gender": "male",
+        "age": 37
+    },
+    "Марина Романовна Ковалева": {
+        "marks": {
+            "Math": 3.45,
+            "Physics": 3.44,
+            "Chemistry": 3.44,
+            "Biology": 3.86,
+            "Literature": 3.45,
+            "Geography": 3.16,
+            "History": 3.12,
+            "First language": 3.82,
+            "Foreign language": 3.41
+        },
+        "gender": "female",
+        "age": 45
+    },
+    "Виктор Харлампович Морозов": {
+        "marks": {
+            "Math": 3.08,
+            "Physics": 3.5,
+            "Chemistry": 3.77,
+            "Biology": 3.92,
+            "Literature": 3.4,
+            "Geography": 3.47,
+            "History": 3.79,
+            "First language": 3.5,
+            "Foreign language": 3.12
+        },
+        "gender": "male",
+        "age": 40
+    },
+    "Элеонора Артемовна Киселева": {
+        "marks": {
+            "Math": 3.0,
+            "Physics": 3.35,
+            "Chemistry": 3.05,
+            "Biology": 3.0,
+            "Literature": 3.36,
+            "Geography": 3.33,
+            "History": 3.5,
+            "First language": 3.33,
+            "Foreign language": 3.88
+        },
+        "gender": "female",
+        "age": 37
+    },
+    "Юлий Данилович Горбунов": {
+        "marks": {
+            "Math": 3.26,
+            "Physics": 3.85,
+            "Chemistry": 3.5,
+            "Biology": 3.41,
+            "Literature": 3.68,
+            "Geography": 3.23,
+            "History": 3.53,
+            "First language": 3.18,
+            "Foreign language": 3.5
+        },
+        "gender": "male",
+        "age": 34
+    },
+    "Дарья Федоровна Шашкова": {
+        "marks": {
+            "Math": 3.29,
+            "Physics": 3.29,
+            "Chemistry": 4.0,
+            "Biology": 3.57,
+            "Literature": 3.77,
+            "Geography": 3.64,
+            "History": 3.72,
+            "First language": 3.0,
+            "Foreign language": 3.41
+        },
+        "gender": "female",
+        "age": 32
+    },
+    "Василиса Матвеевна Бобылева": {
+        "marks": {
+            "Math": 2.75,
+            "Physics": 3.13,
+            "Chemistry": 3.59,
+            "Biology": 3.44,
+            "Literature": 3.25,
+            "Geography": 3.4,
+            "History": 3.41,
+            "First language": 3.1,
+            "Foreign language": 3.35
+        },
+        "gender": "female",
+        "age": 50
+    },
+    "Аверкий Антонович Емельянов": {
+        "marks": {
+            "Math": 3.1,
+            "Physics": 2.73,
+            "Chemistry": 3.64,
+            "Biology": 3.35,
+            "Literature": 3.77,
+            "Geography": 3.3,
+            "History": 3.78,
+            "First language": 3.8,
+            "Foreign language": 3.33
+        },
+        "gender": "male",
+        "age": 37
+    },
+    "Анна Ждановна Ситникова": {
+        "marks": {
+            "Math": 3.47,
+            "Physics": 3.45,
+            "Chemistry": 3.55,
+            "Biology": 3.62,
+            "Literature": 3.0,
+            "Geography": 3.21,
+            "History": 3.5,
+            "First language": 3.55,
+            "Foreign language": 3.45
+        },
+        "gender": "female",
+        "age": 46
+    },
+    "Агафон Жанович Ковалев": {
+        "marks": {
+            "Math": 3.71,
+            "Physics": 3.59,
+            "Chemistry": 3.47,
+            "Biology": 3.22,
+            "Literature": 3.73,
+            "Geography": 3.73,
+            "History": 3.81,
+            "First language": 3.24,
+            "Foreign language": 3.09
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Ратибор Елизарович Данилов": {
+        "marks": {
+            "Math": 4.14,
+            "Physics": 3.06,
+            "Chemistry": 3.27,
+            "Biology": 3.33,
+            "Literature": 3.33,
+            "Geography": 3.2,
+            "History": 3.62,
+            "First language": 3.61,
+            "Foreign language": 3.5
+        },
+        "gender": "male",
+        "age": 33
+    },
+    "Поликарп Владленович Гаврилов": {
+        "marks": {
+            "Math": 3.36,
+            "Physics": 3.14,
+            "Chemistry": 3.72,
+            "Biology": 3.62,
+            "Literature": 2.91,
+            "Geography": 3.83,
+            "History": 3.9,
+            "First language": 3.7,
+            "Foreign language": 3.6
+        },
+        "gender": "male",
+        "age": 29
+    },
+    "Натан Васильевич Устинов": {
+        "marks": {
+            "Math": 3.56,
+            "Physics": 3.45,
+            "Chemistry": 3.53,
+            "Biology": 3.3,
+            "Literature": 3.82,
+            "Geography": 3.5,
+            "History": 3.12,
+            "First language": 3.58,
+            "Foreign language": 3.61
+        },
+        "gender": "male",
+        "age": 32
+    },
+    "Надежда Семеновна Жданова": {
+        "marks": {
+            "Math": 3.55,
+            "Physics": 3.2,
+            "Chemistry": 3.55,
+            "Biology": 3.8,
+            "Literature": 3.5,
+            "Geography": 3.55,
+            "History": 3.32,
+            "First language": 3.7,
+            "Foreign language": 3.15
+        },
+        "gender": "female",
+        "age": 37
+    },
+    "Лавр Аксёнович Алексеев": {
+        "marks": {
+            "Math": 2.88,
+            "Physics": 3.33,
+            "Chemistry": 3.33,
+            "Biology": 3.95,
+            "Literature": 3.42,
+            "Geography": 3.54,
+            "History": 3.54,
+            "First language": 3.83,
+            "Foreign language": 3.77
+        },
+        "gender": "male",
+        "age": 28
+    },
+    "Фома Дорофеевич Максимов": {
+        "marks": {
+            "Math": 3.54,
+            "Physics": 3.63,
+            "Chemistry": 3.25,
+            "Biology": 3.64,
+            "Literature": 3.0,
+            "Geography": 3.42,
+            "History": 3.36,
+            "First language": 3.67,
+            "Foreign language": 3.24
+        },
+        "gender": "male",
+        "age": 30
+    },
+    "Зинаида Кузьминична Ефимова": {
+        "marks": {
+            "Math": 3.6,
+            "Physics": 4.11,
+            "Chemistry": 3.61,
+            "Biology": 3.44,
+            "Literature": 3.22,
+            "Geography": 3.37,
+            "History": 3.5,
+            "First language": 3.55,
+            "Foreign language": 3.5
+        },
+        "gender": "female",
+        "age": 36
+    },
+    "Константин Иосифович Михеев": {
+        "marks": {
+            "Math": 3.5,
+            "Physics": 3.71,
+            "Chemistry": 3.12,
+            "Biology": 3.73,
+            "Literature": 3.33,
+            "Geography": 3.59,
+            "History": 3.0,
+            "First language": 3.27,
+            "Foreign language": 3.3
+        },
+        "gender": "male",
+        "age": 30
+    },
+    "Нифонт Феодосьевич Вишняков": {
+        "marks": {
+            "Math": 3.64,
+            "Physics": 3.6,
+            "Chemistry": 2.9,
+            "Biology": 3.9,
+            "Literature": 3.5,
+            "Geography": 3.55,
+            "History": 3.23,
+            "First language": 4.0,
+            "Foreign language": 2.9
+        },
+        "gender": "male",
+        "age": 24
+    },
+    "Клавдия Васильевна Моисеева": {
+        "marks": {
+            "Math": 3.38,
+            "Physics": 3.37,
+            "Chemistry": 3.2,
+            "Biology": 2.94,
+            "Literature": 3.42,
+            "Geography": 3.1,
+            "History": 3.23,
+            "First language": 3.64,
+            "Foreign language": 3.29
+        },
+        "gender": "female",
+        "age": 41
+    },
+    "Зиновий Ильясович Баранов": {
+        "marks": {
+            "Math": 3.41,
+            "Physics": 3.8,
+            "Chemistry": 2.87,
+            "Biology": 3.79,
+            "Literature": 3.57,
+            "Geography": 3.31,
+            "History": 3.5,
+            "First language": 2.91,
+            "Foreign language": 3.38
+        },
+        "gender": "male",
+        "age": 40
+    },
+    "Феофан Трофимович Авдеев": {
+        "marks": {
+            "Math": 3.17,
+            "Physics": 3.92,
+            "Chemistry": 3.43,
+            "Biology": 3.29,
+            "Literature": 3.32,
+            "Geography": 3.27,
+            "History": 3.5,
+            "First language": 3.68,
+            "Foreign language": 3.82
+        },
+        "gender": "male",
+        "age": 39
+    },
+    "Ульяна Руслановна Воронцова": {
+        "marks": {
+            "Math": 3.44,
+            "Physics": 3.67,
+            "Chemistry": 3.47,
+            "Biology": 3.18,
+            "Literature": 3.69,
+            "Geography": 3.77,
+            "History": 3.24,
+            "First language": 3.8,
+            "Foreign language": 3.6
+        },
+        "gender": "female",
+        "age": 28
+    },
+    "Чеслав Владленович Кудрявцев": {
+        "marks": {
+            "Math": 3.24,
+            "Physics": 3.7,
+            "Chemistry": 3.47,
+            "Biology": 3.71,
+            "Literature": 3.22,
+            "Geography": 3.8,
+            "History": 3.27,
+            "First language": 3.6,
+            "Foreign language": 3.73
+        },
+        "gender": "male",
+        "age": 31
+    },
+    "Тамара Романовна Копылова": {
+        "marks": {
+            "Math": 3.3,
+            "Physics": 3.71,
+            "Chemistry": 3.9,
+            "Biology": 3.9,
+            "Literature": 3.5,
+            "Geography": 3.45,
+            "History": 3.2,
+            "First language": 3.33,
+            "Foreign language": 3.53
+        },
+        "gender": "female",
+        "age": 31
+    },
+    "Харитон Гаврилович Панов": {
+        "marks": {
+            "Math": 3.4,
+            "Physics": 3.67,
+            "Chemistry": 3.82,
+            "Biology": 3.62,
+            "Literature": 2.91,
+            "Geography": 3.12,
+            "History": 3.39,
+            "First language": 3.67,
+            "Foreign language": 3.87
+        },
+        "gender": "male",
+        "age": 44
+    },
+    "Аполлинарий Ануфриевич Агафонов": {
+        "marks": {
+            "Math": 3.75,
+            "Physics": 3.89,
+            "Chemistry": 3.59,
+            "Biology": 3.58,
+            "Literature": 3.69,
+            "Geography": 3.9,
+            "History": 3.81,
+            "First language": 2.85,
+            "Foreign language": 3.43
+        },
+        "gender": "male",
+        "age": 38
+    },
+    "Феоктист Фомич Абрамов": {
+        "marks": {
+            "Math": 3.6,
+            "Physics": 3.63,
+            "Chemistry": 3.25,
+            "Biology": 3.27,
+            "Literature": 3.06,
+            "Geography": 3.4,
+            "History": 3.8,
+            "First language": 3.64,
+            "Foreign language": 3.9
+        },
+        "gender": "male",
+        "age": 32
+    },
+    "Владимир Давыдович Артемьев": {
+        "marks": {
+            "Math": 558.83,
+            "Physics": 3.53,
+            "Chemistry": 3.36,
+            "Biology": 3.33,
+            "Literature": 3.53,
+            "Geography": 3.54,
+            "History": 3.77,
+            "First language": 3.45,
+            "Foreign language": 3.05
+        },
+        "gender": "male",
+        "age": 30
+    },
+    "Вероника Ниловна Ковалева": {
+        "marks": {
+            "Math": 3.45,
+            "Physics": 3.5,
+            "Chemistry": 3.58,
+            "Biology": 3.88,
+            "Literature": 3.0,
+            "Geography": 3.77,
+            "History": 4.0,
+            "First language": 3.64,
+            "Foreign language": 3.55
+        },
+        "gender": "female",
+        "age": 36
+    },
+    "Оксана Степановна Костина": {
+        "marks": {
+            "Math": 3.86,
+            "Physics": 3.43,
+            "Chemistry": 3.62,
+            "Biology": 3.27,
+            "Literature": 4.23,
+            "Geography": 3.47,
+            "History": 3.32,
+            "First language": 3.31,
+            "Foreign language": 3.45
+        },
+        "gender": "female",
+        "age": 29
+    },
+    "Галина Павловна Мясникова": {
+        "marks": {
+            "Math": 3.92,
+            "Physics": 3.5,
+            "Chemistry": 3.71,
+            "Biology": 3.14,
+            "Literature": 3.05,
+            "Geography": 3.3,
+            "History": 3.31,
+            "First language": 3.6,
+            "Foreign language": 3.5
+        },
+        "gender": "female",
+        "age": 50
+    },
+    "София Кирилловна Лихачева": {
+        "marks": {
+            "Math": 3.27,
+            "Physics": 3.2,
+            "Chemistry": 4.0,
+            "Biology": 3.5,
+            "Literature": 3.69,
+            "Geography": 3.36,
+            "History": 3.47,
+            "First language": 3.5,
+            "Foreign language": 4.15
+        },
+        "gender": "female",
+        "age": 49
+    },
+    "Анжела Натановна Пахомова": {
+        "marks": {
+            "Math": 3.42,
+            "Physics": 3.42,
+            "Chemistry": 3.52,
+            "Biology": 3.18,
+            "Literature": 3.5,
+            "Geography": 3.86,
+            "History": 3.56,
+            "First language": 3.6,
+            "Foreign language": 3.53
+        },
+        "gender": "female",
+        "age": 49
+    }
+}

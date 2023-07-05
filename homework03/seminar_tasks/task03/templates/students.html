@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<h1>{{ title }}</h1>
+<hr>
+<table class="table table-striped">
+    <thead class="table-dark">
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Имя</th>
+        <th scope="col">Фамилия</th>
+        <th scope="col">Возраст</th>
+        <th scope="col">Пол</th>
+        <th scope="col">Группа</th>
+        <th scope="col">Факультет</th>
+        <th scope="col">Оценки</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for student in students %}
+    <tr>
+        <td>{{ student.id }}</td>
+        <td>{{ student.firstname }}</td>
+        <td>{{ student.lastname }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.gender }}</td>
+        <td>{{ student.group }}</td>
+        <td>{{ student.faculty.name }}</td>
+        <td>
+            <table>
+                <thead>
+                <tr>
+                    <th>Предмет</th>
+                    <th>Ср. балл</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for mark in student.marks %}
+                <tr>
+                    <td>{{ mark.subject }}</td>
+                    <td>{{ mark.average }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
