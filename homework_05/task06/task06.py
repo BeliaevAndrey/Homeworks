@@ -10,7 +10,7 @@
 # * Реализуйте вывод списка пользователей через шаблонизатор Jinja.
 import uvicorn
 from fastapi import FastAPI, Request, Form
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 
@@ -78,6 +78,7 @@ def post_data(user_name=Form(), user_email=Form(), user_passwd=Form()):
             password=user_passwd
         )
     )
+    return RedirectResponse("/", status_code=303)
 
 
 if __name__ == "__main__":
