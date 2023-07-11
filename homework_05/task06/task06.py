@@ -66,7 +66,7 @@ async def user_add_form(request: Request):
 
 
 @app.post("/register")
-def post_data(user_name=Form(), user_email=Form(), user_passwd=Form()):
+async def post_data(user_name=Form(), user_email=Form(), user_passwd=Form()):
     new_id = 1
     if users:
         new_id = max(users, key=lambda u: u.id).id + 1
@@ -78,7 +78,7 @@ def post_data(user_name=Form(), user_email=Form(), user_passwd=Form()):
             password=user_passwd
         )
     )
-    return RedirectResponse("/", status_code=303)
+    return RedirectResponse(url="/", status_code=303)
 
 
 if __name__ == "__main__":
