@@ -33,9 +33,6 @@ from pydantic import BaseModel, EmailStr
 app = FastAPI()
 
 
-# =============================================================================
-
-
 class NewTask(BaseModel):
     title: str
     description: Optional[str]
