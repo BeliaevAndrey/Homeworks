@@ -2,7 +2,9 @@ import uvicorn
 
 from fastapi import FastAPI
 from database import db
-import routes
+import routes_goods
+import routes_customers
+import routes_orders
 
 app = FastAPI()
 
@@ -16,7 +18,9 @@ async def startup():
 async def shutdown():
     await db.disconnect()
 
-app.include_router(routes.router, tags=["tasks"])
+app.include_router(routes_goods.router, tags=["Goods"])
+app.include_router(routes_customers.router, tags=["Customers"])
+app.include_router(routes_orders.router, tags=["Orders"])
 
 
 if __name__ == "__main__":

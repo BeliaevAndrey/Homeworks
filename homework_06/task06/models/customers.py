@@ -5,7 +5,7 @@ class CustomerBillet(BaseModel):
     name: str = Field(..., max_length=50)
     surname: str = Field(..., max_length=50)
     email: EmailStr = Field(...,)
-    password: float = Field(...,)
+    password: str = Field(...,)
 
 
 class Customer(CustomerBillet):
