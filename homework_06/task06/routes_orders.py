@@ -1,6 +1,8 @@
 from fastapi import APIRouter
+from sqlalchemy import select
+
 from models import Order, OrderBillet
-from database import db, orders
+from database import db, orders, customers, goods
 from typing import List
 
 router = APIRouter()
@@ -13,16 +15,85 @@ async def add_order(order: OrderBillet):
     return {**order.dict(), "id": last_id}
 
 
-@router.get("/orders/", response_model=List[Order])
+@router.get("/orders/", response_model=List[dict])
 async def read_orders():
-    query = orders.select()
-    return await db.fetch_all(query)
+    query = (
+        select(
+            [
+                orders.c.customer_id,
+                orders.c.good_id,
+                customers.c.id,
+                goods.c.id,
+                orders.c.order_date,
+                orders.c.status,
+                customers.c.name,
+                customers.c.surname,
+                customers.c.email,
+                goods.c.name,
+                goods.c.price,
+            ]
+        )
+        .join(customers, orders.c.customer_id == customers.c.id)
+        .join(goods, orders.c.customer_id == goods.c.id)
+    )
+
+    response = await db.fetch_all(query)
+    if response:
+        result = [
+            {
+                "order_date": r[4],
+                "status": r[5],
+                "name": r[6],
+                "surname": r[7],
+                "email": r[8],
+                "good_name": r[9],
+                "price": r[10],
+            }
+            for r in response
+        ]
+        return result
+    else:
+        return 404
 
 
-@router.get("/orders/{order_id}", response_model=Order)
+@router.get("/orders/{order_id}", response_model=dict)
 async def read_order(order_id: int):
-    query = orders.select().where(orders.c.id == order_id)
-    return await db.fetch_one(query)
+    query = (
+        select(
+            [
+                orders.c.customer_id,
+                orders.c.good_id,
+                customers.c.id,
+                goods.c.id,
+                orders.c.order_date,
+                orders.c.status,
+                customers.c.name,
+                customers.c.surname,
+                customers.c.email,
+                goods.c.name,
+                goods.c.price,
+            ]
+        )
+        .rjoin(customers, orders.c.customer_id == customers.c.id)
+        .join(goods, orders.c.customer_id == goods.c.id)
+        .where(orders.c.id == order_id)
+    )
+
+    response = await db.fetch_one(query)
+    print(response)
+    if response:
+        result = dict(
+            order_date=response[4],
+            status=response[5],
+            name=response[6],
+            surname=response[7],
+            email=response[8],
+            good_name=response[9],
+            price=response[10],
+        )
+        print(result)
+        return result
+    return {"message": "Not found"}
 
 
 @router.put("/orders/{order_id}", response_model=Order)
