@@ -33,13 +33,13 @@ async def read_orders():
                 goods.c.price,
             ]
         )
-        .join(customers, orders.c.customer_id == customers.c.id)
-        .join(goods, orders.c.good_id == goods.c.id)
+            .join(customers, orders.c.customer_id == customers.c.id)
+            .join(goods, orders.c.good_id == goods.c.id)
     )
 
     response = await db.fetch_all(query)
     if response:
-        result = [
+        return [
             OrderResponse(
                 order_date=r[4],
                 status=r[5],
@@ -51,7 +51,7 @@ async def read_orders():
             )
             for r in response
         ]
-        return result
+
     raise HTTPException(404, {"message": "Not found"})
 
 
@@ -73,9 +73,9 @@ async def read_order(order_id: int):
                 goods.c.price,
             ]
         )
-        .join(customers, orders.c.customer_id == customers.c.id)
-        .join(goods, orders.c.good_id == goods.c.id)
-        .where(orders.c.id == order_id)
+            .join(customers, orders.c.customer_id == customers.c.id)
+            .join(goods, orders.c.good_id == goods.c.id)
+            .where(orders.c.id == order_id)
     )
     response = await db.fetch_one(query)
 

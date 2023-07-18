@@ -21,3 +21,6 @@ class OrderResponse(BaseModel):
     email: str
     good_name: str
     price: str
+
+    class Config:
+        from_attributes = True  # в более ранних версиях orm_mode = True
