@@ -11,3 +11,13 @@ class OrderBillet(BaseModel):
 
 class Order(OrderBillet):
     id: int
+
+
+class OrderResponse(BaseModel):
+    order_date: date
+    status: str
+    name: str
+    surname: str
+    email: str
+    good_name: str
+    price: str

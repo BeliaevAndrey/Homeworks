@@ -1,7 +1,7 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from sqlalchemy import select
 
-from models import Order, OrderBillet
+from models import Order, OrderBillet, OrderResponse
 from database import db, orders, customers, goods
 from typing import List
 
@@ -15,7 +15,7 @@ async def add_order(order: OrderBillet):
     return {**order.dict(), "id": last_id}
 
 
-@router.get("/orders/", response_model=List[dict])
+@router.get("/orders/", response_model=List[OrderResponse])
 async def read_orders():
     query = (
         select(
@@ -38,24 +38,24 @@ async def read_orders():
     )
 
     response = await db.fetch_all(query)
-
     if response:
-        return [
-            {
-                "order_date": r[4],
-                "status": r[5],
-                "name": r[6],
-                "surname": r[7],
-                "email": r[8],
-                "good_name": r[9],
-                "price": r[10],
-            }
+        result = [
+            OrderResponse(
+                order_date=r[4],
+                status=r[5],
+                name=r[6],
+                surname=r[7],
+                email=r[8],
+                good_name=r[9],
+                price=r[10],
+            )
             for r in response
         ]
-    return {"message": "Not found"}
+        return result
+    raise HTTPException(404, {"message": "Not found"})
 
 
-@router.get("/orders/{order_id}", response_model=dict)
+@router.get("/orders/{order_id}", response_model=OrderResponse)
 async def read_order(order_id: int):
     query = (
         select(
@@ -77,10 +77,10 @@ async def read_order(order_id: int):
         .join(goods, orders.c.good_id == goods.c.id)
         .where(orders.c.id == order_id)
     )
-
     response = await db.fetch_one(query)
+
     if response:
-        return dict(
+        result = OrderResponse(
             order_date=response[4],
             status=response[5],
             name=response[6],
@@ -89,7 +89,8 @@ async def read_order(order_id: int):
             good_name=response[9],
             price=response[10],
         )
-    return {"message": "Not found"}
+        return result
+    raise HTTPException(404, {"message": "Not found"})
 
 
 @router.put("/orders/{order_id}", response_model=Order)
