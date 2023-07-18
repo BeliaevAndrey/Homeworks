@@ -34,12 +34,13 @@ async def read_orders():
             ]
         )
         .join(customers, orders.c.customer_id == customers.c.id)
-        .join(goods, orders.c.customer_id == goods.c.id)
+        .join(goods, orders.c.good_id == goods.c.id)
     )
 
     response = await db.fetch_all(query)
+
     if response:
-        result = [
+        return [
             {
                 "order_date": r[4],
                 "status": r[5],
@@ -51,9 +52,7 @@ async def read_orders():
             }
             for r in response
         ]
-        return result
-    else:
-        return 404
+    return {"message": "Not found"}
 
 
 @router.get("/orders/{order_id}", response_model=dict)
@@ -74,15 +73,14 @@ async def read_order(order_id: int):
                 goods.c.price,
             ]
         )
-        .rjoin(customers, orders.c.customer_id == customers.c.id)
-        .join(goods, orders.c.customer_id == goods.c.id)
+        .join(customers, orders.c.customer_id == customers.c.id)
+        .join(goods, orders.c.good_id == goods.c.id)
         .where(orders.c.id == order_id)
     )
 
     response = await db.fetch_one(query)
-    print(response)
     if response:
-        result = dict(
+        return dict(
             order_date=response[4],
             status=response[5],
             name=response[6],
@@ -91,8 +89,6 @@ async def read_order(order_id: int):
             good_name=response[9],
             price=response[10],
         )
-        print(result)
-        return result
     return {"message": "Not found"}
 
 
